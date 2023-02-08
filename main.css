@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* <!-- timerBlock --> */
+     
+.container{
+    width: 60%;
+    height: 550px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+.timer-block{
+    width: 35%;
+    height: 120px;
+    
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.timer-time{
+    width: 100px;
+    height: 120px;
+    color: black;
+    font-size:75px;
+    
+}
+
+
+/* <!-- button-block --> */
+.button-block{
+    width: 45%;
+    height: 25px;
+    
+    margin:0px auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button{
+    width: 100px;
+   
+    height: 25px; 
+    background-color: rgb(245, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.check-result{
+    background-color:rgb(247, 139, 139)
+} 
+.inertButton{
+    background-color:rgb(247, 139, 139)
+}
+.active{
+    background-color: rgb(245, 22, 22);
+}
+
+/* <!-- modal-block -->*/
+
+.check-modal-block{
+    width: 500px;
+    height: 200px; 
+    border: 0.5px solid black;
+    margin: 0px auto;
+    margin-top: -210px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    
+}
+.text{
+    width: 500px;
+    height: 100px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin: 30px auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+h2{
+text-align: center;
+
+}
+.btn-close{
+    width: 60px;
+    height: 30px;  
+    margin-top: -10px;
+}
+.btn-check{
+    margin-left: 10px;
+    width: 60px;
+    height: 30px; 
+    background-color: rgb(5, 148, 36);
+    margin-top: -10px;
+}
+
+/* <!-- image-container --> */
+.image-container{
+    width: 100%;
+    height: 305px;
+    /* border: 1px solid rgb(136, 8, 93); */
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.image-block{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px black;
+   
+}
+.image-block-left{
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+ 
+}
+
+    
+.image{
+    
+    width: 74.5px;
+    height: 74.5px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    border: 1px solid rgb(89, 10, 235);
+    
+}
+
+
+.image-block1{
+    background-image: url(./images/image1.png);
+}
+.image-block2{
+    background-image: url(./images/image2.png);
+}
+.image-block3{
+    background-image: url(./images/image3.png);
+}
+
+.image-block4{
+    background-image: url(./images/image4.png);
+}
+.image-block5{
+    background-image: url(./images/image5.png);
+}
+
+.image-block6{
+    
+    background-image: url(./images/image6.png);
+}
+.image-block7{
+    background-image: url(./images/image7.png);
+}
+.image-block8{
+    background-image: url(./images/image8.png);
+}
+.image-block9{
+    background-image: url(./images/image9.png);
+}
+.image-block10{
+    background-image: url(./images/image10.png);
+}
+.image-block11{
+    background-image: url(./images/image11.png);
+}
+.image-block12{
+    background-image: url(./images/image12.png);
+}
+.image-block13{
+    background-image: url(./images/image13.png);
+}
+.image-block14{
+    background-image: url(./images/image14.png);
+}
+.image-block15{
+    background-image: url(./images/image15.png); 
+
+}
+.image-block16{
+    background-image: url(./images/image16.png);
+} 
+
+
+
+/* image-block-rigth */
+.image-block-rigth{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0px;
+    
+    
+}
+.imageRigth{
+    width: 74.5px;
+    height: 74.5px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    /* border: 1px solid rgb(89, 10, 235); */
+    
+}
